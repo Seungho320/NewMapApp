@@ -40,6 +40,12 @@
                                     <action selector="clickZoomin:" destination="BYZ-38-t0r" eventType="touchDown" id="eFa-5b-EEq"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cWf-XG-FxE">
+                                <rect key="frame" x="20" y="813" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -51,6 +57,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="inputText" destination="cWf-XG-FxE" id="UPE-sO-TWc"/>
                         <outlet property="longPressGesRec" destination="kP5-SG-odm" id="pBm-rM-uzr"/>
                         <outlet property="mapView" destination="sso-1v-XcM" id="HOI-Ru-fQk"/>
                     </connections>
